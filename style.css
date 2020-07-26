@@ -10,26 +10,36 @@
 <html>
 
 <head>
- body {
+  body {
   color : red;
  }
- h1 {
- color : rgb(189, 160, 160);
+h1 {
+  color : white; 
  }
- h2 {
-  color : green;
+h2 {
+  color : white;
 }
-  h3 {
-    color : yellowgreen;
+h3 {
+  color : plum;
   }
   
-  h5 {
-    color : red;
-  }
-  h6 {
-    color : burlywood;
-  }
-  </head>
+h5 {
+  color : lavender;
+  }  
+
+</head>
   <body>
   </body>
 </html>
+
+#mainNav {
+        overflow: hidden;
+        background-color: transparent;
+    	color: #333;
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        width: 100%; /* Full width */
+    }
+    .navbar a{
+    	color: white;
+    }
